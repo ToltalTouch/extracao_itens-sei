@@ -8,7 +8,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import WebDriverException
+from selenium.common.exceptions import WebDriverException, NoSuchElementException, TimeoutException
 
 from login_sei import SeiLogin
 from login_sei import PromptWindow
@@ -29,15 +29,15 @@ download_dir = os.path.join(atual_dir, 'downloads')
 if not os.path.exists(download_dir):
     os.makedirs(download_dir)
 
-df = pd.read_excel(excel_path, sheet_name='Itens Extraídos').dropna(subset=['PROCESSO SEI'])
-df = df[df['PROCESSO SEI'].str.strip() != '']
-process_numbers = df['PROCESSO SEI'].tolist()
+df = pd.read_excel(excel_path, sheet_name='PROCESSO').dropna(subset=['PROCESSO'])
+df = df[df['PROCESSO'].str.strip() != '']  # Remove strings vazias ou com espaços
+process_numbers = df['PROCESSO'].tolist()
 
 chrome_options = Options()
 
 def encontrar_arquivos():
     sei.driver.get(sei_url)
-    colunas = ["PROCESSO SEI", "NOME ARQUIVO", "NOME", "MATERIAL", "MODELO", "TAMANHO/GENERO", "QUANTIDADE"]
+    colunas = ["PROCESSO", "NOME ARQUIVO", "NOME", "MATERIAL", "MODELO", "TAMANHO/GENERO", "QUANTIDADE"]
     
     if not os.path.exists(excel_path):
         df_cabecalho = pd.DataFrame(columns=colunas)
@@ -67,27 +67,46 @@ def encontrar_arquivos():
                 for idx, item_form in enumerate(termos_encontrados):
                     try:
                         documento_titulo = item_form.text.strip()
-                        logging.info(f"Processando documento: {idx+1}/{len(termos_encontrados): {documento_titulo}}")
+                        logging.info(f"Processando documento: {idx+1}/{len(termos_encontrados)} - {documento_titulo}")
 
                         item_form.click()
-
-                        frame_visualicao = WebDriverWait(sei.driver, 10).until(
-                            lambda d: d.find_element(By.ID, "ifrVisualizacao")
-                        )
-                        sei.driver.switch_to.frame(frame_visualicao)
-
-                        if not nome_funcionario:
-                            try:
-                                nome_funcionario_element = sei.driver.find_element(By.CLASS_NAME, "Texto_Justificado")
-                                nome_funcionario = nome_funcionario_element.text
-                                logging.info(f"Nome do funcionário encontrado: {nome_funcionario}")
-                            except Exception as e:
-                                logging.error(f"Erro ao localizar nome do funcionário: {e}")
+                        
+                        sei.driver.switch_to.default_content()
+                        try:
+                            all_iframes = sei.driver.find_elements(By.TAG_NAME, 'iframe')
+                            logging.info(f"Numer de iframes encontrados após default_content: {len(all_iframes)}")
+                            for index, iframe_tag in enumerate(all_iframes):
+                                iframe_id = iframe_tag.get_attribute("id")
+                                iframe_name = iframe_tag.get_attribute("name")
+                                logging.info(f"Iframe {index}: ID = {iframe_id}, Name = {iframe_name}")
+                        except Exception as e:
+                            logging.error(f"Erro ao listar iframes: {e}")
 
                         try:
-                            nome_funcionario_element = sei.driver.find_element(By.CLASS_NAME, "Texto_Justificado")
-                            nome_funcionario = nome_funcionario_element.text
-                            df.loc[df['PROCESSO SEI'] == process_number, 'NOME FUNCIONARIO'] = nome_funcionario
+                            frame_visualizacao = WebDriverWait(sei.driver, 10).until(
+                                EC.presence_of_element_located((By.ID, "ifrVisualizacao"))
+                            )
+                            logging.info(f"Attempting to switch to content visualization frame: {frame_visualizacao.get_attribute('id')}")
+                            sei.driver.switch_to.frame(frame_visualizacao)
+                            logging.info("Successfully switched to ifrVisualizacao.")
+
+                            frame_lista = WebDriverWait(sei.driver, 10).until(
+                                EC.presence_of_element_located((By.ID, "ifrArvoreHtml")) 
+                            )
+                            logging.info(f"Attempting to switch to nested document content frame: {frame_lista.get_attribute('id')}")
+                            sei.driver.switch_to.frame(frame_lista)
+                            logging.info("Successfully switched to ifrArvoreHtml (presumably inside ifrVisualizacao).")
+
+                        except (TimeoutException, NoSuchElementException) as e_iframe_switch:
+                            logging.error(f"Error switching to content iframes (ifrVisualizacao or ifrArvoreHtml): {e_iframe_switch}")
+                            raise 
+
+                        try:
+                            xpath_for_name = "//td[p[@class='Texto_Justificado' and normalize-space(.) = 'NOME:']]/following-sibling::td[1]/p[@class='Texto_Justificado']"
+                            nome_funcionario_element = sei.driver.find_element(By.CLASS_NAME, xpath_for_name)
+                            nome_funcionario = nome_funcionario_element.text.strip()
+                            logging.info(f"Nome do funcionário encontrado: {nome_funcionario}")
+                            df.loc[df['PROCESSO'] == process_number, 'NOME FUNCIONARIO'] = nome_funcionario
                         except Exception as e:
                             logging.error(f"Erro ao localizar nome do funcionário para o processo {process_number}: {e}")
 
@@ -106,7 +125,7 @@ def encontrar_arquivos():
                                     
                                     if modelo or tamanho or quantidade:
                                         itens_info ={
-                                            "PROCESSO SEI": process_number,
+                                            "PROCESSO": process_number,
                                             "NOME ARQUIVO": documento_titulo,
                                             "NOME": nome_funcionario,
                                             "MATERIAL": material,
@@ -127,7 +146,7 @@ def encontrar_arquivos():
                         continue
                 else:
                     logging.info(f"Nenhum termo encontrado para o processo {process_number}")
-        except WebDriverException as e:
+        except (WebDriverException,TimeoutError, Exception, NoSuchElementException) as e:
             logging.error(f"Erro ao processar o número do processo {process_number}: {e}")
             continue
         finally:
@@ -156,7 +175,9 @@ if __name__ == "__main__":
     prompt = PromptWindow(sei.root)
     def executar_selenium():
         prompt.prompt_window()
-        sei.login(sei_url)
+        sei.login_window()
         encontrar_arquivos()
+
     selenium_thread = threading.Thread(target=executar_selenium)
     selenium_thread.start()
+    sei.root.mainloop()
