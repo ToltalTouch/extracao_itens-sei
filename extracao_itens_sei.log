@@ -15614,3 +15614,1011 @@ Stacktrace:
 	BaseThreadInitThunk [0x00007FFAA6147374+20]
 	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
 
+2025-06-11 11:01:38,589 - INFO - Acessando o SEI
+2025-06-11 11:01:40,168 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-06-11 11:01:41,618 - INFO - Frame com id ifrArvore encontrado e selecionado.
+2025-06-11 11:01:43,148 - INFO - URL atual: https://sei.antt.gov.br/sip/login.php?sigla_orgao_sistema=ANTT&sigla_sistema=SEI
+2025-06-11 11:01:43,149 - INFO - Aguardando a área principal da tela ou erro fatal...
+2025-06-11 11:25:48,997 - INFO - Acessando o SEI
+2025-06-11 11:25:52,154 - INFO - URL atual: https://sei.antt.gov.br/sip/login.php?sigla_orgao_sistema=ANTT&sigla_sistema=SEI
+2025-06-11 11:25:52,155 - INFO - Aguardando a área principal da tela ou erro fatal...
+2025-06-11 11:25:52,181 - INFO - Login efetuado com sucesso!
+2025-06-11 11:27:07,602 - INFO - Acessando o SEI
+2025-06-11 11:27:10,764 - INFO - URL atual: https://sei.antt.gov.br/sip/login.php?sigla_orgao_sistema=ANTT&sigla_sistema=SEI
+2025-06-11 11:27:10,765 - INFO - Aguardando a área principal da tela ou erro fatal...
+2025-06-11 11:27:10,790 - INFO - Login efetuado com sucesso!
+2025-06-11 11:30:35,417 - ERROR - Erro ao acessar o SEI: Message: javascript error: Invalid or unexpected token
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC30998]
+	(No symbol) [0x00007FF71CC33D51]
+	(No symbol) [0x00007FF71CCD05F8]
+	(No symbol) [0x00007FF71CCA737A]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 11:30:46,762 - INFO - Acessando o SEI
+2025-06-11 11:30:50,120 - INFO - URL atual: https://sei.antt.gov.br/sip/login.php?sigla_orgao_sistema=ANTT&sigla_sistema=SEI
+2025-06-11 11:30:50,121 - INFO - Aguardando a área principal da tela ou erro fatal...
+2025-06-11 11:30:50,148 - ERROR - Login ou senha incorretos.
+2025-06-11 11:30:58,250 - INFO - Acessando o SEI
+2025-06-11 11:31:01,379 - INFO - URL atual: https://sei.antt.gov.br/sip/login.php?sigla_orgao_sistema=ANTT&sigla_sistema=SEI
+2025-06-11 11:31:01,382 - INFO - Aguardando a área principal da tela ou erro fatal...
+2025-06-11 11:31:01,406 - INFO - Login efetuado com sucesso!
+2025-06-11 11:33:48,305 - ERROR - Erro ao acessar o SEI: Message: javascript error: Invalid or unexpected token
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC30998]
+	(No symbol) [0x00007FF71CC33D51]
+	(No symbol) [0x00007FF71CCD05F8]
+	(No symbol) [0x00007FF71CCA737A]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 11:39:31,344 - ERROR - Erro ao acessar o SEI: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC7F4C6]
+	(No symbol) [0x00007FF71CC7F77C]
+	(No symbol) [0x00007FF71CCD2577]
+	(No symbol) [0x00007FF71CCA73BF]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 11:39:32,533 - INFO - Acessando o SEI
+2025-06-11 11:39:35,693 - INFO - URL atual: https://sei.antt.gov.br/sip/login.php?sigla_orgao_sistema=ANTT&sigla_sistema=SEI
+2025-06-11 11:39:35,694 - INFO - Aguardando a área principal da tela ou erro fatal...
+2025-06-11 11:39:35,716 - INFO - Login efetuado com sucesso!
+2025-06-11 11:42:11,025 - ERROR - Erro ao acessar o SEI: Message: javascript error: Invalid or unexpected token
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC30998]
+	(No symbol) [0x00007FF71CC33D51]
+	(No symbol) [0x00007FF71CCD05F8]
+	(No symbol) [0x00007FF71CCA737A]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 11:42:24,656 - INFO - Acessando o SEI
+2025-06-11 11:42:27,813 - INFO - URL atual: https://sei.antt.gov.br/sip/login.php?sigla_orgao_sistema=ANTT&sigla_sistema=SEI
+2025-06-11 11:42:27,813 - INFO - Aguardando a área principal da tela ou erro fatal...
+2025-06-11 11:42:27,834 - INFO - Login efetuado com sucesso!
+2025-06-11 11:44:10,247 - INFO - Acessando o SEI
+2025-06-11 11:44:11,956 - INFO - Iniciando busca para o processo: 50500.354871/2023-82
+2025-06-11 11:44:13,173 - INFO - Frame com id ifrArvore encontrado e selecionado.
+2025-06-11 11:44:13,211 - ERROR - Erro ao processar o processo 50500.354871/2023-82: Message: no such frame
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28DCC]
+	(No symbol) [0x00007FF71CC3533C]
+	(No symbol) [0x00007FF71CCD1599]
+	(No symbol) [0x00007FF71CCA737A]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 11:44:13,405 - INFO - URL atual: https://sei.antt.gov.br/sip/login.php?sigla_orgao_sistema=ANTT&sigla_sistema=SEI
+2025-06-11 11:44:13,405 - INFO - Aguardando a área principal da tela ou erro fatal...
+2025-06-11 11:44:23,372 - ERROR - Erro ao acessar o SEI: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC7F4C6]
+	(No symbol) [0x00007FF71CC7F77C]
+	(No symbol) [0x00007FF71CCD2577]
+	(No symbol) [0x00007FF71CCA73BF]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 11:48:14,424 - INFO - Acessando o SEI
+2025-06-11 11:48:16,244 - INFO - Iniciando busca para o processo: 50500.354871/2023-82
+2025-06-11 11:48:17,582 - INFO - URL atual: https://sei.antt.gov.br/sip/login.php?sigla_orgao_sistema=ANTT&sigla_sistema=SEI
+2025-06-11 11:48:17,583 - INFO - Aguardando a área principal da tela ou erro fatal...
+2025-06-11 11:48:17,912 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-06-11 11:48:17,957 - INFO - Login efetuado com sucesso!
+2025-06-11 11:48:18,449 - INFO - Frame com id ifrArvore encontrado e selecionado.
+2025-06-11 11:48:18,458 - ERROR - Erro ao processar o processo 50500.354871/2023-82: 'list' object has no attribute 'find_elements'
+2025-06-11 11:48:28,616 - ERROR - Erro ao acessar o SEI: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC7F4C6]
+	(No symbol) [0x00007FF71CC7F77C]
+	(No symbol) [0x00007FF71CCD2577]
+	(No symbol) [0x00007FF71CCA73BF]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 11:50:22,880 - INFO - Acessando o SEI
+2025-06-11 11:50:23,011 - ERROR - Erro ao acessar o SEI: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC7F4C6]
+	(No symbol) [0x00007FF71CC7F77C]
+	(No symbol) [0x00007FF71CCD2577]
+	(No symbol) [0x00007FF71CCA73BF]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 11:50:23,049 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-06-11 11:50:26,051 - INFO - URL atual: https://sei.antt.gov.br/sip/login.php?sigla_orgao_sistema=ANTT&sigla_sistema=SEI
+2025-06-11 11:50:26,051 - INFO - Aguardando a área principal da tela ou erro fatal...
+2025-06-11 11:50:26,091 - INFO - Login efetuado com sucesso!
+2025-06-11 11:50:59,048 - INFO - Acessando o SEI
+2025-06-11 11:51:00,546 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-06-11 11:51:00,726 - INFO - Iniciando busca para o processo: 50500.354871/2023-82
+2025-06-11 11:51:01,979 - INFO - Frame com id ifrArvore encontrado e selecionado.
+2025-06-11 11:51:03,537 - INFO - URL atual: https://sei.antt.gov.br/sip/login.php?sigla_orgao_sistema=ANTT&sigla_sistema=SEI
+2025-06-11 11:51:03,538 - INFO - Aguardando a área principal da tela ou erro fatal...
+2025-06-11 11:51:12,406 - ERROR - Erro ao acessar o SEI: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC7F4C6]
+	(No symbol) [0x00007FF71CC7F77C]
+	(No symbol) [0x00007FF71CCD2577]
+	(No symbol) [0x00007FF71CCA73BF]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 11:52:09,362 - ERROR - Erro ao acessar o SEI: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC7F4C6]
+	(No symbol) [0x00007FF71CC7F77C]
+	(No symbol) [0x00007FF71CCD2577]
+	(No symbol) [0x00007FF71CCA73BF]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 11:52:15,330 - INFO - Acessando o SEI
+2025-06-11 11:52:18,489 - INFO - URL atual: https://sei.antt.gov.br/sip/login.php?sigla_orgao_sistema=ANTT&sigla_sistema=SEI
+2025-06-11 11:52:18,490 - INFO - Aguardando a área principal da tela ou erro fatal...
+2025-06-11 11:52:18,519 - INFO - Login efetuado com sucesso!
+2025-06-11 11:54:02,261 - ERROR - Erro ao acessar o SEI: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC7F4C6]
+	(No symbol) [0x00007FF71CC7F77C]
+	(No symbol) [0x00007FF71CCD2577]
+	(No symbol) [0x00007FF71CCA73BF]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 11:54:08,945 - INFO - Acessando o SEI
+2025-06-11 11:54:12,106 - INFO - URL atual: https://sei.antt.gov.br/sip/login.php?sigla_orgao_sistema=ANTT&sigla_sistema=SEI
+2025-06-11 11:54:12,107 - INFO - Aguardando a área principal da tela ou erro fatal...
+2025-06-11 11:54:12,131 - INFO - Login efetuado com sucesso!
+2025-06-11 11:55:04,602 - INFO - Acessando o SEI
+2025-06-11 11:55:06,303 - INFO - Iniciando busca para o processo: 50500.354871/2023-82
+2025-06-11 11:55:07,555 - INFO - Frame com id ifrArvore encontrado e selecionado.
+2025-06-11 11:55:07,763 - INFO - URL atual: https://sei.antt.gov.br/sip/login.php?sigla_orgao_sistema=ANTT&sigla_sistema=SEI
+2025-06-11 11:55:07,764 - INFO - Aguardando a área principal da tela ou erro fatal...
+2025-06-11 11:55:07,786 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-06-11 11:55:17,966 - ERROR - Erro ao acessar o SEI: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC7F4C6]
+	(No symbol) [0x00007FF71CC7F77C]
+	(No symbol) [0x00007FF71CCD2577]
+	(No symbol) [0x00007FF71CCA73BF]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 11:55:42,681 - INFO - Acessando o SEI
+2025-06-11 11:55:44,109 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-06-11 11:55:44,285 - INFO - Iniciando busca para o processo: 50500.354871/2023-82
+2025-06-11 11:55:45,507 - INFO - Frame com id ifrArvore encontrado e selecionado.
+2025-06-11 11:55:47,099 - INFO - URL atual: https://sei.antt.gov.br/sip/login.php?sigla_orgao_sistema=ANTT&sigla_sistema=SEI
+2025-06-11 11:55:47,100 - INFO - Aguardando a área principal da tela ou erro fatal...
+2025-06-11 11:55:55,904 - ERROR - Erro ao acessar o SEI: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC7F4C6]
+	(No symbol) [0x00007FF71CC7F77C]
+	(No symbol) [0x00007FF71CCD2577]
+	(No symbol) [0x00007FF71CCA73BF]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 11:57:34,850 - INFO - Acessando o SEI
+2025-06-11 11:57:35,251 - ERROR - Erro ao acessar o SEI: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC7F4C6]
+	(No symbol) [0x00007FF71CC7F77C]
+	(No symbol) [0x00007FF71CCD2577]
+	(No symbol) [0x00007FF71CCA73BF]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 11:57:38,090 - INFO - URL atual: https://sei.antt.gov.br/sip/login.php?sigla_orgao_sistema=ANTT&sigla_sistema=SEI
+2025-06-11 11:57:38,091 - INFO - Aguardando a área principal da tela ou erro fatal...
+2025-06-11 11:57:38,113 - ERROR - Login ou senha incorretos.
+2025-06-11 12:00:32,378 - INFO - Acessando o SEI
+2025-06-11 12:00:34,062 - INFO - Iniciando busca para o processo: 50500.354871/2023-82
+2025-06-11 12:00:35,248 - INFO - Frame com id ifrArvore encontrado e selecionado.
+2025-06-11 12:00:35,575 - INFO - URL atual: https://sei.antt.gov.br/sip/login.php?sigla_orgao_sistema=ANTT&sigla_sistema=SEI
+2025-06-11 12:00:35,576 - INFO - Aguardando a área principal da tela ou erro fatal...
+2025-06-11 12:00:43,627 - ERROR - Erro ao acessar o SEI: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC14E35]
+	(No symbol) [0x00007FF71CC39DB4]
+	(No symbol) [0x00007FF71CCAEE75]
+	(No symbol) [0x00007FF71CCCECC2]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 14:33:29,483 - ERROR - Erro ao processar o número do processo 50500.354871/2023-82: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC7F4C6]
+	(No symbol) [0x00007FF71CC7F77C]
+	(No symbol) [0x00007FF71CCD2577]
+	(No symbol) [0x00007FF71CCA73BF]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 14:33:30,092 - INFO - Acessando o SEI
+2025-06-11 14:33:33,255 - INFO - URL atual: https://sei.antt.gov.br/sip/login.php?sigla_orgao_sistema=ANTT&sigla_sistema=SEI
+2025-06-11 14:33:33,257 - INFO - Aguardando a área principal da tela ou erro fatal...
+2025-06-11 14:33:33,285 - INFO - Login efetuado com sucesso!
+2025-06-11 14:33:43,067 - ERROR - Erro ao processar o número do processo 50500.354871/2023-83: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC7F4C6]
+	(No symbol) [0x00007FF71CC7F77C]
+	(No symbol) [0x00007FF71CCD2577]
+	(No symbol) [0x00007FF71CCA73BF]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 14:33:45,069 - INFO - Processando termo: 2 para o processo 50500.065856/2024-43
+2025-06-11 14:33:45,084 - INFO - Processando documento: 1/2 - Termo Solicitação Bens Uso Individual S/Patrimônio 22155117
+2025-06-11 14:33:45,223 - INFO - Numer de iframes encontrados após default_content: 2
+2025-06-11 14:33:45,235 - INFO - Iframe 0: ID = ifrArvore, Name = ifrArvore
+2025-06-11 14:33:45,245 - INFO - Iframe 1: ID = ifrVisualizacao, Name = ifrVisualizacao
+2025-06-11 14:33:45,260 - INFO - Attempting to switch to content visualization frame: ifrVisualizacao
+2025-06-11 14:33:45,328 - INFO - Successfully switched to ifrVisualizacao.
+2025-06-11 14:33:45,853 - INFO - Attempting to switch to nested document content frame: ifrArvoreHtml
+2025-06-11 14:33:45,869 - INFO - Successfully switched to ifrArvoreHtml (presumably inside ifrVisualizacao).
+2025-06-11 14:33:45,885 - ERROR - Erro ao localizar nome do funcionário para o processo 50500.065856/2024-43: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=137.0.7151.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC30998]
+	(No symbol) [0x00007FF71CC33A0C]
+	(No symbol) [0x00007FF71CC33ADF]
+	(No symbol) [0x00007FF71CC7ED77]
+	(No symbol) [0x00007FF71CC7F77C]
+	(No symbol) [0x00007FF71CCD2577]
+	(No symbol) [0x00007FF71CCA73BF]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 14:33:46,375 - ERROR - Erro ao processar o item 2 do processo 50500.065856/2024-43: Message: no such element: element not found
+  (Session info: chrome=137.0.7151.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC3F3D4]
+	(No symbol) [0x00007FF71CC3DEA3]
+	(No symbol) [0x00007FF71CC316C9]
+	(No symbol) [0x00007FF71CC2F54F]
+	(No symbol) [0x00007FF71CC33A0C]
+	(No symbol) [0x00007FF71CC33ADF]
+	(No symbol) [0x00007FF71CC78F56]
+	(No symbol) [0x00007FF71CCA737A]
+	(No symbol) [0x00007FF71CC71C46]
+	(No symbol) [0x00007FF71CCA7590]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 14:33:46,380 - INFO - Nenhum termo encontrado para o processo 50500.065856/2024-43
+2025-06-11 15:02:38,739 - INFO - Acessando o SEI
+2025-06-11 15:02:38,765 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-06-11 15:02:40,936 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-06-11 15:02:41,171 - INFO - Iniciando busca para o processo: 50500.354871/2023-82
+2025-06-11 15:02:42,518 - INFO - Frame com id ifrArvore encontrado e selecionado.
+2025-06-11 15:02:43,923 - INFO - URL atual: https://sei.antt.gov.br/sip/login.php?sigla_orgao_sistema=ANTT&sigla_sistema=SEI
+2025-06-11 15:02:43,924 - INFO - Aguardando a área principal da tela ou erro fatal...
+2025-06-11 15:04:15,252 - ERROR - Erro ao acessar o SEI: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC14E35]
+	(No symbol) [0x00007FF71CC39DB4]
+	(No symbol) [0x00007FF71CCAEE75]
+	(No symbol) [0x00007FF71CCCECC2]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 15:04:26,307 - INFO - Acessando o SEI
+2025-06-11 15:04:26,429 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-06-11 15:04:29,392 - INFO - Processando termo: 7 para o processo 50500.354871/2023-82
+2025-06-11 15:04:29,398 - INFO - Processando documento: 1/7 - Termo Solicitação Bens Uso Individual S/Patrimônio 20352468
+2025-06-11 15:04:29,469 - INFO - URL atual: https://sei.antt.gov.br/sip/login.php?sigla_orgao_sistema=ANTT&sigla_sistema=SEI
+2025-06-11 15:04:29,469 - INFO - Aguardando a área principal da tela ou erro fatal...
+2025-06-11 15:04:29,544 - INFO - Numer de iframes encontrados após default_content: 2
+2025-06-11 15:04:29,574 - INFO - Login efetuado com sucesso!
+2025-06-11 15:04:29,584 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-06-11 15:04:29,624 - INFO - Iframe 0: ID = ifrArvore, Name = ifrArvore
+2025-06-11 15:04:29,649 - INFO - Iframe 1: ID = ifrVisualizacao, Name = ifrVisualizacao
+2025-06-11 15:04:29,708 - INFO - Attempting to switch to content visualization frame: ifrVisualizacao
+2025-06-11 15:04:29,733 - INFO - Successfully switched to ifrVisualizacao.
+2025-06-11 15:04:29,751 - INFO - Attempting to switch to nested document content frame: ifrArvoreHtml
+2025-06-11 15:04:29,865 - INFO - Successfully switched to ifrArvoreHtml (presumably inside ifrVisualizacao).
+2025-06-11 15:04:29,881 - ERROR - Erro ao localizar nome do funcionário para o processo 50500.354871/2023-82: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=137.0.7151.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC30998]
+	(No symbol) [0x00007FF71CC33A0C]
+	(No symbol) [0x00007FF71CC33ADF]
+	(No symbol) [0x00007FF71CC7ED77]
+	(No symbol) [0x00007FF71CC7F77C]
+	(No symbol) [0x00007FF71CCD2577]
+	(No symbol) [0x00007FF71CCA73BF]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 15:04:30,249 - ERROR - Erro ao processar o item 2 do processo 50500.354871/2023-82: Message: no such element: element not found
+  (Session info: chrome=137.0.7151.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC3F3D4]
+	(No symbol) [0x00007FF71CC3DEA3]
+	(No symbol) [0x00007FF71CC316C9]
+	(No symbol) [0x00007FF71CC2F54F]
+	(No symbol) [0x00007FF71CC33A0C]
+	(No symbol) [0x00007FF71CC33ADF]
+	(No symbol) [0x00007FF71CC78F56]
+	(No symbol) [0x00007FF71CCA737A]
+	(No symbol) [0x00007FF71CC71C46]
+	(No symbol) [0x00007FF71CCA7590]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 15:04:30,261 - ERROR - Erro ao processar o item 3 do processo 50500.354871/2023-82: Message: no such element: element not found
+  (Session info: chrome=137.0.7151.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC3F3D4]
+	(No symbol) [0x00007FF71CC3DEA3]
+	(No symbol) [0x00007FF71CC316C9]
+	(No symbol) [0x00007FF71CC2F54F]
+	(No symbol) [0x00007FF71CC33A0C]
+	(No symbol) [0x00007FF71CC33ADF]
+	(No symbol) [0x00007FF71CC78F56]
+	(No symbol) [0x00007FF71CCA737A]
+	(No symbol) [0x00007FF71CC71C46]
+	(No symbol) [0x00007FF71CCA7590]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 15:04:30,272 - ERROR - Erro ao processar o item 4 do processo 50500.354871/2023-82: Message: no such element: element not found
+  (Session info: chrome=137.0.7151.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC3F3D4]
+	(No symbol) [0x00007FF71CC3DEA3]
+	(No symbol) [0x00007FF71CC316C9]
+	(No symbol) [0x00007FF71CC2F54F]
+	(No symbol) [0x00007FF71CC33A0C]
+	(No symbol) [0x00007FF71CC33ADF]
+	(No symbol) [0x00007FF71CC78F56]
+	(No symbol) [0x00007FF71CCA737A]
+	(No symbol) [0x00007FF71CC71C46]
+	(No symbol) [0x00007FF71CCA7590]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 15:04:30,282 - ERROR - Erro ao processar o item 5 do processo 50500.354871/2023-82: Message: no such element: element not found
+  (Session info: chrome=137.0.7151.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC3F3D4]
+	(No symbol) [0x00007FF71CC3DEA3]
+	(No symbol) [0x00007FF71CC316C9]
+	(No symbol) [0x00007FF71CC2F54F]
+	(No symbol) [0x00007FF71CC33A0C]
+	(No symbol) [0x00007FF71CC33ADF]
+	(No symbol) [0x00007FF71CC78F56]
+	(No symbol) [0x00007FF71CCA737A]
+	(No symbol) [0x00007FF71CC71C46]
+	(No symbol) [0x00007FF71CCA7590]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 15:04:30,295 - ERROR - Erro ao processar o item 6 do processo 50500.354871/2023-82: Message: no such element: element not found
+  (Session info: chrome=137.0.7151.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC3F3D4]
+	(No symbol) [0x00007FF71CC3DEA3]
+	(No symbol) [0x00007FF71CC316C9]
+	(No symbol) [0x00007FF71CC2F54F]
+	(No symbol) [0x00007FF71CC33A0C]
+	(No symbol) [0x00007FF71CC33ADF]
+	(No symbol) [0x00007FF71CC78F56]
+	(No symbol) [0x00007FF71CCA737A]
+	(No symbol) [0x00007FF71CC71C46]
+	(No symbol) [0x00007FF71CCA7590]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 15:04:30,305 - ERROR - Erro ao processar o item 7 do processo 50500.354871/2023-82: Message: no such element: element not found
+  (Session info: chrome=137.0.7151.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC3F3D4]
+	(No symbol) [0x00007FF71CC3DEA3]
+	(No symbol) [0x00007FF71CC316C9]
+	(No symbol) [0x00007FF71CC2F54F]
+	(No symbol) [0x00007FF71CC33A0C]
+	(No symbol) [0x00007FF71CC33ADF]
+	(No symbol) [0x00007FF71CC78F56]
+	(No symbol) [0x00007FF71CCA737A]
+	(No symbol) [0x00007FF71CC71C46]
+	(No symbol) [0x00007FF71CCA7590]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 15:04:30,313 - INFO - Nenhum termo encontrado para o processo 50500.354871/2023-82
+2025-06-11 15:04:41,420 - ERROR - Erro ao processar o número do processo 50500.354871/2023-83: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC7F4C6]
+	(No symbol) [0x00007FF71CC7F77C]
+	(No symbol) [0x00007FF71CCD2577]
+	(No symbol) [0x00007FF71CCA73BF]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 15:04:43,565 - INFO - Processando termo: 2 para o processo 50500.065856/2024-43
+2025-06-11 15:04:43,577 - INFO - Processando documento: 1/2 - Termo Solicitação Bens Uso Individual S/Patrimônio 22155117
+2025-06-11 15:04:43,661 - INFO - Numer de iframes encontrados após default_content: 2
+2025-06-11 15:04:43,674 - INFO - Iframe 0: ID = ifrArvore, Name = ifrArvore
+2025-06-11 15:04:43,684 - INFO - Iframe 1: ID = ifrVisualizacao, Name = ifrVisualizacao
+2025-06-11 15:04:43,696 - INFO - Attempting to switch to content visualization frame: ifrVisualizacao
+2025-06-11 15:04:44,418 - INFO - Successfully switched to ifrVisualizacao.
+2025-06-11 15:04:44,433 - INFO - Attempting to switch to nested document content frame: ifrArvoreHtml
+2025-06-11 15:04:44,449 - INFO - Successfully switched to ifrArvoreHtml (presumably inside ifrVisualizacao).
+2025-06-11 15:04:44,458 - ERROR - Erro ao localizar nome do funcionário para o processo 50500.065856/2024-43: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=137.0.7151.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC30998]
+	(No symbol) [0x00007FF71CC33A0C]
+	(No symbol) [0x00007FF71CC33ADF]
+	(No symbol) [0x00007FF71CC7ED77]
+	(No symbol) [0x00007FF71CC7F77C]
+	(No symbol) [0x00007FF71CCD2577]
+	(No symbol) [0x00007FF71CCA73BF]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 15:04:44,945 - ERROR - Erro ao processar o item 2 do processo 50500.065856/2024-43: Message: no such element: element not found
+  (Session info: chrome=137.0.7151.57); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC3F3D4]
+	(No symbol) [0x00007FF71CC3DEA3]
+	(No symbol) [0x00007FF71CC316C9]
+	(No symbol) [0x00007FF71CC2F54F]
+	(No symbol) [0x00007FF71CC33A0C]
+	(No symbol) [0x00007FF71CC33ADF]
+	(No symbol) [0x00007FF71CC78F56]
+	(No symbol) [0x00007FF71CCA737A]
+	(No symbol) [0x00007FF71CC71C46]
+	(No symbol) [0x00007FF71CCA7590]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 15:04:44,945 - ERROR - Erro ao processar o número do processo 50500.065856/2024-43: invalid command name ".!toplevel.!frame.!scrolledtext"
+2025-06-11 15:05:12,201 - INFO - Acessando o SEI
+2025-06-11 15:05:14,085 - INFO - Iniciando busca para o processo: 50500.354871/2023-82
+2025-06-11 15:05:15,282 - INFO - Frame com id ifrArvore encontrado e selecionado.
+2025-06-11 15:05:15,362 - INFO - URL atual: https://sei.antt.gov.br/sip/login.php?sigla_orgao_sistema=ANTT&sigla_sistema=SEI
+2025-06-11 15:05:15,363 - INFO - Aguardando a área principal da tela ou erro fatal...
+2025-06-11 15:05:15,397 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-06-11 15:09:15,814 - ERROR - Erro ao acessar o SEI: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC7F4C6]
+	(No symbol) [0x00007FF71CC7F77C]
+	(No symbol) [0x00007FF71CCD2577]
+	(No symbol) [0x00007FF71CCA73BF]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 15:10:38,539 - INFO - Acessando o SEI
+2025-06-11 15:10:42,090 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-06-11 15:10:42,283 - INFO - Iniciando busca para o processo: 50500.354871/2023-82
+2025-06-11 15:10:43,498 - INFO - Frame com id ifrArvore encontrado e selecionado.
+2025-06-11 15:10:45,078 - INFO - URL atual: https://sei.antt.gov.br/sip/login.php?sigla_orgao_sistema=ANTT&sigla_sistema=SEI
+2025-06-11 15:10:45,079 - INFO - Aguardando a área principal da tela ou erro fatal...
+2025-06-11 15:10:53,905 - ERROR - Erro ao processar o processo 50500.354871/2023-83: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC7F4C6]
+	(No symbol) [0x00007FF71CC7F77C]
+	(No symbol) [0x00007FF71CCD2577]
+	(No symbol) [0x00007FF71CCA73BF]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+
+2025-06-11 15:15:00,529 - INFO - Iniciando busca para o processo: 50500.354871/2023-82
+2025-06-11 15:15:01,946 - INFO - Frame com id ifrArvore encontrado e selecionado.
+2025-06-11 15:15:12,337 - ERROR - Erro ao processar o processo 50500.354871/2023-83: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF71CE5CF25+75717]
+	GetHandleVerifier [0x00007FF71CE5CF80+75808]
+	(No symbol) [0x00007FF71CC28F9A]
+	(No symbol) [0x00007FF71CC7F4C6]
+	(No symbol) [0x00007FF71CC7F77C]
+	(No symbol) [0x00007FF71CCD2577]
+	(No symbol) [0x00007FF71CCA73BF]
+	(No symbol) [0x00007FF71CCCF39C]
+	(No symbol) [0x00007FF71CCA7153]
+	(No symbol) [0x00007FF71CC70421]
+	(No symbol) [0x00007FF71CC711B3]
+	GetHandleVerifier [0x00007FF71D15D6FD+3223453]
+	GetHandleVerifier [0x00007FF71D157CA2+3200322]
+	GetHandleVerifier [0x00007FF71D175AD3+3322739]
+	GetHandleVerifier [0x00007FF71CE769FA+180890]
+	GetHandleVerifier [0x00007FF71CE7E0FF+211359]
+	GetHandleVerifier [0x00007FF71CE65274+109332]
+	GetHandleVerifier [0x00007FF71CE65422+109762]
+	GetHandleVerifier [0x00007FF71CE4BA39+4825]
+	BaseThreadInitThunk [0x00007FFAA6147374+20]
+	RtlUserThreadStart [0x00007FFAA6D3CC91+33]
+

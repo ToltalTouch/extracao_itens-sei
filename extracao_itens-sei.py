@@ -137,12 +137,12 @@ def encontrar_arquivos():
                         
                         except (Exception,WebDriverException) as e:
                             logging.error(f"Erro ao extrair itens do processo {process_number}: {e}")
-                        sei.driver.switch_to.default_content()
-                        sei.driver.switch_to.frame(frame_lista)
+                            sei.driver.switch_to.default_content()
+                        
                     except (Exception, WebDriverException) as e:
                         logging.error(f"Erro ao processar o item {idx+1} do processo {process_number}: {e}")
                         sei.driver.switch_to.default_content()
-                        sei.driver.switch_to.frame(frame_lista)
+                        
                         continue
                 else:
                     logging.info(f"Nenhum termo encontrado para o processo {process_number}")
